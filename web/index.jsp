@@ -33,19 +33,19 @@
                                 <td><a href="opcBase.jsp">Base de datos /*configurar aqui antes de cualquier cosa*/</a></td>
                             </tr>
                             <tr>
-                                <td><a href="index.jsp">Productos</a></td>
+                                <td><a href="opcProducto.jsp">Productos</a></td>
                             </tr>
                             <tr>
-                                <td><a href="index.jsp">Ventas</a></td>
+                                <td><a href="opcVenta.jsp">Ventas</a></td>
                             </tr>
                             <tr>
-                                <td><a href="index.jsp">Vendedores</a></td>
+                                <td><a href="opcVendedor.jsp">Vendedores</a></td>
                             </tr>
                             <tr>
-                                <td><a href="index.jsp">Clientes</a></td>
+                                <td><a href="opcCliente.jsp">Clientes</a></td>
                             </tr>
                             <tr>
-                                <td><a href="index.jsp">Inventario</a></td>
+                                <td><a href="opcInventario.jsp">Inventario</a></td>
                             </tr>
                         </tbody>
                     </table>
