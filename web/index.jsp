@@ -13,6 +13,44 @@
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     </head>
     <body>
-        <h1>Hello World!!!</h1>
+        <nav class="teal lighten-1">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">Ventas</a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col s6 offset-s3">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Seleccionar Opcion:</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><a href="opcBase.jsp">Base de datos /*configurar aqui antes de cualquier cosa*/</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="index.jsp">Productos</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="index.jsp">Ventas</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="index.jsp">Vendedores</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="index.jsp">Clientes</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="index.jsp">Inventario</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
