@@ -1,6 +1,6 @@
 <%-- 
-    Document   : opcBase
-    Created on : 11-13-2018, 12:07:34 PM
+    Document   : opcProducto
+    Created on : 11-13-2018, 12:27:47 PM
     Author     : gebbl
 --%>
 
@@ -15,18 +15,15 @@
     <body>
         <nav class="teal lighten-1">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo center">Ventas</a>
+                <a href="index.jsp" class="brand-logo center">Ventas</a>
             </div>
         </nav>
         <div class="container">
             <div class="row">
-                <div class="col s6">
-                    <!-- AQUI PRIMER BOTON -->
-                </div>
-                <div class="col s6">
-                    <!-- AQUI SEGUNDO BOTON -->
+                <div class="col s12">
+                    
                 </div>
             </div>
-        </div>    
+        </div>
     </body>
 </html>
