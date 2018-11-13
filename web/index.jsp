@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     </head>
     <body>
         <h1>Hello World!!!</h1>
