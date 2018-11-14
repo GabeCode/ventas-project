@@ -21,12 +21,28 @@
         <div class="container">
             <div class="row">
                 <div class="col s6">
-                    <!-- AQUI PRIMER BOTON -->
+                    <form action="CrearBD" method="post">
+                        <input type="hidden" value="crear" name="Accion"> 
+                        <input class="waves-effect waves-light btn" type="submit" value="Crear BD">
+                    </form>
+                    
                 </div>
                 <div class="col s6">
-                    <!-- AQUI SEGUNDO BOTON -->
+                    <form action="CrearBD" method="post">
+                        <input type="hidden" value="eliminar" name="Accion"> 
+                        <input class="waves-effect waves-light btn" type="submit" value="Eliminar BD">
+                    </form>
                 </div>
+ 
             </div>
-        </div>    
+        </div>
+        <div class="row">
+                <div class="col s12">
+                    <div style="display: <c:if test='${mensajeAccion == null}'>none</c:if>;">
+                        <h4>Mensajes:</h4>
+                        <h4>${mensajeAccion}</h4>
+                    </div>
+                </div>
+        </div>
     </body>
 </html>
